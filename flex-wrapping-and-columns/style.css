@@ -32,7 +32,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   flex-wrap:wrap;
-  flex-direction:column;
+  flex-direction:column; /* by default, flex-direction is row -> left to right, not top to bottom, which is column,
+   you can also use row-reverse or column-reverse to reverse the axis, right to left or bottom to top*/
   border:10px solid goldenrod;
   height:100vh;
 }

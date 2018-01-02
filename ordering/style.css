@@ -34,11 +34,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex:1;
+  flex:1; /* this evenly distributes width amongst all elements */
 }
 
 .box3 {
-  order:1;
+  order:3; /* the default order for everything is 0, so anything greater will set it to the end,
+  same for negative numbers (a little like z-index), this does make selections by the mouse weird though */
 }
 
 .box5 {
