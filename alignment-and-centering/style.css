@@ -30,11 +30,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex; /* you must define the container as display: flex  - there's no floats, widths, etc.*/
-  /* inline-flex will only wrap around the content - and no greater */
+  display:flex;
+  justify-content:center; /* you can either align items flex-start, flex-end, space-between or center */
   border:10px solid mistyrose;
-  height:100vh; /* stands for view-height, and means that the border will stretch the full height of the viewport */
-  align-items:flex-start;
+  min-height:100vh; /* required to get justify content to work when the flex direction is set to column */
+  align-items:flex-start; /* by default, align-items is set to stretch,
+  baseline will make sure the bottom of each piece of content inside the divs will line up perfectly*/
+  flex-direction: row; /* this is the default, column is when the axis is set top to bottom */
+  align-content: center; /* align content takes content from cross axis (like justify does main axis) */
+  flex-wrap: wrap; /* this actually makes content wrap according to child box widths,
+   otherwise it takes no effect*/
+
 }
 
 .box {
@@ -51,5 +57,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box9 {
   padding-bottom: 50px;
-  align-self:stretch;
+  align-self:stretch; /* align-self can be applied on an individual item and it will overwrite
+  the align-items set on the container */
 }
