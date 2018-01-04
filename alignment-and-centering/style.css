@@ -60,3 +60,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   align-self:stretch; /* align-self can be applied on an individual item and it will overwrite
   the align-items set on the container */
 }
+
+.box1{
+  display: flex; /* making an item inside a container, a container - trippy... */
+  flex-direction: column;
+}
+
+.baby-box {
+  font-size: 20px;
+  align-self: flex-end;
+  border: 10px solid gold;
+}

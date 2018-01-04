@@ -34,11 +34,24 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box1 {
-  flex:10 5 400px;
+  flex:10 5 400px; /* flex is a shorthand for setting flex-grow or flex-shrink - it goes: grow, shrink, basis*/
+
+  /*flex-grow:10; !* this says to an element, when there's extra room, grow to fill it - the default is 0 *!*/
+
+  /*flex-shrink:10; !* this is how an element deals with less space than what it's set to,*/
+  /*how much should it shrink in relation to other elements *!*/
+
+  /*flex-basis:400px;*/
+
 }
 
 .box2 {
   flex:1 1 400px;
+
+  /*flex-basis: 400px;*/
+
+  /*flex-grow:1;*/
+
 }
 
 

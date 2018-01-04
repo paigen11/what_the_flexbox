@@ -31,7 +31,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:wrap; /* when you turn on flex-wrap, grow, shrink and basis are only affected by the row they're on */
   flex-direction:column; /* by default, flex-direction is row -> left to right, not top to bottom, which is column,
    you can also use row-reverse or column-reverse to reverse the axis, right to left or bottom to top*/
   border:10px solid goldenrod;
@@ -45,11 +45,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 .box3 {
-  flex-grow:5;
+  flex-grow:5; /* since box 3 has a flex grow of 5, it gets five times more space than boxes one and two (in
+  its column) */
 }
 
 .box4 {
-  flex-basis:100px;  
+  flex-basis:100px;  /* same for 100px here, that's the main size of box 4 */
 }
 
 

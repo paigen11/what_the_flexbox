@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b9b5dc9-c5a5-403c-8e2d-412ed0ec18c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alignment-and-centering/index.html" afterPath="$PROJECT_DIR$/alignment-and-centering/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alignment-and-centering/style.css" afterPath="$PROJECT_DIR$/alignment-and-centering/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-grow-and-shrink/style.css" afterPath="$PROJECT_DIR$/flex-grow-and-shrink/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-wrapping-and-columns/style.css" afterPath="$PROJECT_DIR$/flex-wrapping-and-columns/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox-sizing/style.css" afterPath="$PROJECT_DIR$/flexbox-sizing/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +22,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alignment-and-centering/index.html">
+        <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alignment-and-centering/style.css">
+        <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="422">
+              <caret line="52" column="77" lean-forward="false" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -51,12 +55,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alignment-and-centering/index.html" />
         <option value="$PROJECT_DIR$/intro/style.css" />
-        <option value="$PROJECT_DIR$/flex-wrapping-and-columns/style.css" />
         <option value="$PROJECT_DIR$/flex-direction/style.css" />
         <option value="$PROJECT_DIR$/ordering/style.css" />
+        <option value="$PROJECT_DIR$/alignment-and-centering/index.html" />
         <option value="$PROJECT_DIR$/alignment-and-centering/style.css" />
+        <option value="$PROJECT_DIR$/flexbox-sizing/style.css" />
+        <option value="$PROJECT_DIR$/flex-grow-and-shrink/style.css" />
+        <option value="$PROJECT_DIR$/flex-wrapping-and-columns/style.css" />
       </list>
     </option>
   </component>
@@ -123,12 +129,17 @@
             <path>
               <item name="what_the_flexbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="what_the_flexbox" type="462c0819:PsiDirectoryNode" />
-              <item name="alignment-and-centering" type="462c0819:PsiDirectoryNode" />
+              <item name="flex-grow-and-shrink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="what_the_flexbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="what_the_flexbox" type="462c0819:PsiDirectoryNode" />
-              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="flex-wrapping-and-columns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="what_the_flexbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="what_the_flexbox" type="462c0819:PsiDirectoryNode" />
+              <item name="flexbox-sizing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,11 +165,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/what_the_flexbox/flexbox-sizing/index.html" />
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/what_the_flexbox/flex-grow-and-shrink/index.html" />
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/what_the_flexbox/flex-wrapping-and-columns/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/what_the_flexbox/alignment-and-centering/index.html" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -175,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514414219930</updated>
-      <workItem from="1514414222173" duration="5067000" />
+      <workItem from="1514414222173" duration="7664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5067000" />
+    <option name="totallyTimeSpent" value="7664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="511" y="23" width="1169" height="947" extended-state="0" />
@@ -231,22 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-reordering/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -289,16 +296,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alignment-and-centering/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alignment-and-centering/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="320">
+          <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox-sizing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox-sizing/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-grow-and-shrink/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-grow-and-shrink/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="36" column="109" lean-forward="false" selection-start-line="36" selection-start-column="109" selection-end-line="36" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-wrapping-and-columns/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="52" column="77" lean-forward="false" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
           <folding />
         </state>
       </provider>
