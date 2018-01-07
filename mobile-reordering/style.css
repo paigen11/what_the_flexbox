@@ -64,13 +64,79 @@ section, footer {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.flex-nav li {
+  flex: 3;
+}
+
+.flex-nav .social{
+  flex: 1;
 }
 
 @media all and (max-width:1000px) {
 
-}
+  .flex-nav ul {
+    flex-wrap: wrap;
+  }
 
+  .flex-nav li {
+    flex: 1 1 50%;
+  }
+
+  .flex-nav .social {
+    flex: 1 1 25%;
+  }
+}
 
 @media all and (max-width:500px) {
-  
+
+  .flex-nav li {
+    flex-basis: 100%;
+  }
+
+  /* flex container*/
+  .wrapper {
+    display: flex; /* alone, display breaks your layout when it's a small browser screen... */
+    flex-direction: column; /* but with flex-direction column, it looks good again */
+  }
+
+  /* flex item */
+  .wrapper > * {
+    order: 9999;
+  }
+
+  .flex-nav {
+    order: 1; /* in order for the nav to be at the top, the wrapper and all its child items need a lower
+    order (or z-index) */
+  }
+
+  .toggleNav {
+    display: block; /* this will display the hamburger instead of the ul of nav items */
+  }
+
+  .flex-nav ul {
+    display: none;
+  }
+
+  /* when the class of open is added on toggle, then display the flex-nav ul again and use flex so the
+   child elements display nicely */
+  .flex-nav ul.open{
+    display: flex;
+  }
+
+  .top {
+    order: 2;
+  }
+
+  .details {
+    order: 3;
+  }
+
+  .signup {
+    order: 4;
+  }
+
 }
+

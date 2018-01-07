@@ -43,16 +43,36 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  
+  display: flex;
 }
 
+.flex-nav li {
+  flex: 3; /* make the items take 3 times more space than the social icon ones */
+}
+
+.flex-nav .social{
+  flex: 1;
+}
 
 @media all and (max-width:1000px) {
   
+  .flex-nav ul {
+    flex-wrap: wrap; /* turn on flex-wrap for when the window gets smaller */
+  }
 
+  .flex-nav li {
+    flex: 1 1 50%; /* for wrap to work, set width of child elements - grow, shrink and basis percentage */
+  }
+
+  .flex-nav .social {
+    flex: 1 1 25%;
+  }
 }
 
 @media all and (max-width:500px) {
-  
+
+  .flex-nav li {
+    flex-basis: 100%; /* this just overwrites the flex basis set above in the flex-nav li */
+  }
 
 }
