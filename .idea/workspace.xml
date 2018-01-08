@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9b5dc9-c5a5-403c-8e2d-412ed0ec18c6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flexbox-nav/style-ANSWER.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-reordering/style-ANSWER.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoprefixer/build/styles.css" afterPath="$PROJECT_DIR$/autoprefixer/build/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoprefixer/gulpfile.js" afterPath="$PROJECT_DIR$/autoprefixer/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoprefixer/index.html" afterPath="$PROJECT_DIR$/autoprefixer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox-nav/index.html" afterPath="$PROJECT_DIR$/flexbox-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox-nav/style.css" afterPath="$PROJECT_DIR$/flexbox-nav/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile-reordering/style.css" afterPath="$PROJECT_DIR$/mobile-reordering/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nesting-flexbox/index-START.html" afterPath="$PROJECT_DIR$/nesting-flexbox/index-START.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nesting-flexbox/style-START.css" afterPath="$PROJECT_DIR$/nesting-flexbox/style-START.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,21 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile-reordering/index.html">
+      <file leaf-file-name="index-START.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nesting-flexbox/index-START.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile-reordering/style.css">
+      <file leaf-file-name="style-START.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nesting-flexbox/style-START.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+            <state relative-caret-position="130">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -72,6 +66,8 @@
         <option value="$PROJECT_DIR$/flexbox-nav/index.html" />
         <option value="$PROJECT_DIR$/flexbox-nav/style.css" />
         <option value="$PROJECT_DIR$/mobile-reordering/style.css" />
+        <option value="$PROJECT_DIR$/nesting-flexbox/index-START.html" />
+        <option value="$PROJECT_DIR$/nesting-flexbox/style-START.css" />
       </list>
     </option>
   </component>
@@ -141,7 +137,7 @@
             <path>
               <item name="what_the_flexbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="what_the_flexbox" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile-reordering" type="462c0819:PsiDirectoryNode" />
+              <item name="nesting-flexbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514414219930</updated>
-      <workItem from="1514414222173" duration="11105000" />
+      <workItem from="1514414222173" duration="12636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11105000" />
+    <option name="totallyTimeSpent" value="12636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="511" y="23" width="1169" height="947" extended-state="0" />
@@ -409,6 +405,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nesting-flexbox/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nesting-flexbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nesting-flexbox/index-START.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nesting-flexbox/style-START.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding />
         </state>
       </provider>
