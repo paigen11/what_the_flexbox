@@ -54,9 +54,32 @@ a {
   margin: 10px 0;
 }
 
-
+/* flex container */
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
-  
+  display: flex;
+  align-items: center;
+}
+
+.plan {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  background: rgba(255,255,255,0.2);
+
+  /* nested flex within a flex */
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* all direct descendants of the parent */
+.plan > * {
+  flex: 1 1 100%;
+}
+
+.plan .cta {
+  align-self: flex-end;
 }
