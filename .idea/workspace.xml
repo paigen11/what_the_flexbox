@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9b5dc9-c5a5-403c-8e2d-412ed0ec18c6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/equal-height-elements/style-ANSWER.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/equal-height-elements/style.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equal-height-elements/index.html" afterPath="$PROJECT_DIR$/equal-height-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equal-height-elements/style-START.css" afterPath="$PROJECT_DIR$/equal-height-elements/style-START.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox-form/index.html" afterPath="$PROJECT_DIR$/flexbox-form/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox-form/style-START.css" afterPath="$PROJECT_DIR$/flexbox-form/style-START.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +21,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/equal-height-elements/index.html">
+        <entry file="file://$PROJECT_DIR$/flexbox-form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style-START.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/equal-height-elements/style-START.css">
+        <entry file="file://$PROJECT_DIR$/flexbox-form/style-START.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+            <state relative-caret-position="530">
+              <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -72,6 +74,8 @@
         <option value="$PROJECT_DIR$/pricing-grid/style-START.css" />
         <option value="$PROJECT_DIR$/equal-height-elements/index.html" />
         <option value="$PROJECT_DIR$/equal-height-elements/style-START.css" />
+        <option value="$PROJECT_DIR$/flexbox-form/index.html" />
+        <option value="$PROJECT_DIR$/flexbox-form/style-START.css" />
       </list>
     </option>
   </component>
@@ -141,7 +145,7 @@
             <path>
               <item name="what_the_flexbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="what_the_flexbox" type="462c0819:PsiDirectoryNode" />
-              <item name="equal-height-elements" type="462c0819:PsiDirectoryNode" />
+              <item name="flexbox-form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,12 +185,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514414219930</updated>
-      <workItem from="1514414222173" duration="14311000" />
+      <workItem from="1514414222173" duration="16246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14311000" />
+    <option name="totallyTimeSpent" value="16246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="511" y="23" width="1169" height="947" extended-state="0" />
@@ -477,6 +481,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/equal-height-elements/style-START.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/equal-height-elements/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -485,10 +497,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equal-height-elements/style-START.css">
+    <entry file="file://$PROJECT_DIR$/flexbox-form/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state relative-caret-position="570">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox-form/style-START.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding />
         </state>
       </provider>
