@@ -102,3 +102,43 @@ a.button {
 /*
   Overall Layout
 */
+
+.app-wrap{
+  display: flex;
+  flex-direction:column;
+}
+
+/* all the child elements of app-wrap */
+.app-wrap > * {
+  flex: 1 1 auto; /* we use auto so the header, footer and rest of the content to take up as much space as they need */
+}
+
+/*
+  App header
+ */
+.app-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* takes extra space and puts it between them (spaces them out evenly) */
+}
+
+/*
+  Content
+ */
+.content {
+  overflow-y: scroll; /* this enables the content to fit inside the screen with the room it needs */
+  -webkit-overflow-scrolling: touch; /* this turns on touch scrolling for phones */
+}
+
+
+/*
+  Icon bar
+ */
+.icon-bar{
+  display: flex;
+  align-items: center;
+}
+
+icon-bar a {
+  flex: 1;
+}
